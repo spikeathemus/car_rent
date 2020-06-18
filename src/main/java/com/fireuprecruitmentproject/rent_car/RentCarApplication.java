@@ -1,5 +1,6 @@
 package com.fireuprecruitmentproject.rent_car;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
