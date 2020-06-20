@@ -5,7 +5,7 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name="cars")
+@Table(name = "cars")
 public class Car {
     @Id
     @GeneratedValue
@@ -24,6 +24,17 @@ public class Car {
 
 
     public Car() {
+    }
+
+    public Car(int carId, String marka, String model, String carType, Double year, String kolor, BigDecimal price, Boolean isBooked) {
+        this.carId = carId;
+        this.marka = marka;
+        this.model = model;
+        this.carType = carType;
+        this.year = year;
+        this.kolor = kolor;
+        this.price = price;
+        this.isBooked = isBooked;
     }
 
     public int getId() {

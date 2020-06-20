@@ -8,7 +8,7 @@ public class User {
     @Column
     @Id
     @GeneratedValue
-    private int userId;
+    private Integer userId;
 
     @Column(name="imię")
     private String firstName;
